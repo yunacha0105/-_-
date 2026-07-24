@@ -2,7 +2,6 @@ from test import test
 
 attendance = input('''리눅스 시험을 시작합니다.
 참가하시겠습니까? y / n : ''')
-
 while True:
     if attendance == 'y':
         test()
